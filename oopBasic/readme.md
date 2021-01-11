@@ -20,7 +20,7 @@ Problem
 
 `OOP` adalah paradigma pemrograman yang mendefinisikan design software dalam bentuk object  sesuai dengan keadaan nyata, bukan hanya kumpulan fungsi dan logika saja.
 
-![vs](./vs.png)
+![vs](../asset/vs.png)
 
 
 
