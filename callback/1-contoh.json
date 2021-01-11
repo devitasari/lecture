@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "ayu sudi",
+        "point": {
+            "math" : [90,100,80],
+            "science" : [70, 90, 100]
+        },
+        "status": true
+    },
+    {
+        "id": 2,
+        "name": "arnold therigan",
+        "point": {
+            "math" : [70,100,80],
+            "science" : [70, 90, 100]
+        },
+        "status": false
+    },
+    {
+        "id": 3,
+        "name": "devita",
+        "point": {
+            "math" : [90,100,80],
+            "science" : [100, 90, 100]
+        },
+        "status": true
+    }
+]
