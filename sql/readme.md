@@ -25,7 +25,8 @@
     1. `DDL (Data Definition Language)` => mendefinisikan tempat data (database dan table)
 <br>
     2. `DML (Data Manipulation Language)` => mengakses dan memanipulasi data
-
+<br>
+<br>
 **DDL**
 - create db
 - delete db
