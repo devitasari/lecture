@@ -15,10 +15,15 @@
 - bahasa untuk mengakses dan memanipulasi data
 <br>
 - Untuk membangun suatu database aplikasi, kita membutuhkan `Relational Database Management System (RDBMS)` untuk `mengotak-atik` database dengan bahasa SQL.
+<br>
 - Contoh RDBMS: MS Access, SQL Server, MySQL, `PostgresQL`
+<br>
 - Di database, data akan disimpan dalam sebuah `table`
+<br>
 - Di SQL, `language` nya dibagi menjadi 2 jenis, yaitu:
+<br>
     1. `DDL (Data Definition Language)` => mendefinisikan tempat data (database dan table)
+<br>
     2. `DML (Data Manipulation Language)` => mengakses dan memanipulasi data
 
 **DDL**
