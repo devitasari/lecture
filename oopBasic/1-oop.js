@@ -1,51 +1,80 @@
-let hp1 = {
+let nokia = {
     merk: 'nokia',
     color: 'blue',
-    button: true,
     camera: false,
+    button: true,
     telp() {},
     sendSms() {},
     game() {}
 }
 
-// let hp2 = {
-//     merk: 'sony',
-//     color: 'black',
-//     button: true,
-//     camera: true,
-//     telp() {},
-//     sendSms() {},
-//     game() {}
-// }
+// console.log(nokia)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Blueprint / Cetakan / Class 
 
 class Hp {
-    constructor(merk, color, button = true, camera = false) {
-        this.merk = merk,
-        this.button = button,
-        this.color = color,
+    constructor(merk, color, button = false, camera = false) {
+        this.merk = merk
+        this.button = button
+        this.color = color
         this.camera = camera
-    }
-    telp(no = 'unknown') {
-        console.log(`${this.merk} call ${no}`);
-        return this
-    }
-    sendSms() {
-        console.log(`${this.merk} send sms`);
-        return this
-    }
-    game() {
-        console.log(`open the game`);
-    }
-    changeMerk(newMerk) {
-        this.merk = newMerk
-        console.log(this)
+        this.battery = 100 
     }
 }
 
 
-module.exports = Hp
+
+let blackberry = new Hp('blackberry', 'purple', undefined, true)
+console.log(blackberry);
+
+// console.log(samsung, '>>>>>>>>>')
+// samsung.game().telp();
+// console.log(samsung)
+
+let samsung = new Hp('samsung', 'black', null, true)
+console.log(samsung)
+
+
+
+
+
+
+
+
+
 
 
 

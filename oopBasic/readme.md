@@ -5,7 +5,6 @@ Outline:
 - "this"
 - method (kapan perlu return dan kapan tidak dalam sebuah class)
 - method chaining
-- export import module
 - pembacaan file pada node js menggunakan fsReadFileSync (baca doc nodejs)
 
 <br><br><br>

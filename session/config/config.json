@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "devita",
+    "password": "postgres",
+    "database": "school",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
