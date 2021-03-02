@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        table {
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <h1>User List</h1>
+    <a href="/register">Register User</a>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Email</th>
+            <th>Birthdate</th>
+        </tr>
+        <% users.map(e => { %>
+            <tr>
+                <td><%= e.id %></td>
+                <td><%= e.name %></td>
+                <td><%= e.username %></td>
+                <td><%= e.password %></td>
+                <td><%= e.email %></td>
+                <td><%= e.birthdate.toDateString() %></td>
+            </tr>
+        <% }) %> 
+    </table>
+</body>
+</html>
